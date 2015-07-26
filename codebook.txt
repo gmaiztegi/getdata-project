@@ -1,0 +1,21 @@
+Column  Variable Name       Description
+1       subject             Subject identifier
+2       activity            Activity description
+3       tBodyAcc.mean.X     Body acceleration mean on X axis
+4       tBodyAcc.mean.Y     Body acceleration mean on Y axis
+5       tBodyAcc.mean.Z     Body acceleration mean on Z axis
+6       tBodyAcc.std.X      Body acceleration standard deviation on X axis
+7       tBodyAcc.std.Y      Body acceleration standard deviation on Y axis
+8       tBodyAcc.std.Z      Body acceleration standard deviation on Z axis
+9       tGravityAcc.mean.X  Gravity acceleration mean on X axis
+10      tGravityAcc.mean.Y  Gravity acceleration mean on Y axis
+11      tGravityAcc.mean.Z  Gravity acceleration mean on Z axis
+12      tGravityAcc.std.X   Gravity acceleration standard deviation on X axis
+13      tGravityAcc.std.Y   Gravity acceleration standard deviation on Y axis
+14      tGravityAcc.std.Z   Gravity acceleration standard deviation on Z axis
+15      tBodyGyro.mean.X    Gyroscope readings' mean on X axis
+16      tBodyGyro.mean.Y    Gyroscope readings' mean on Y axis
+17      tBodyGyro.mean.Z    Gyroscope readings' mean on Z axis
+18      tBodyGyro.std.X     Gyroscope readings' standard deviation on X axis
+19      tBodyGyro.std.Y     Gyroscope readings' standard deviation on Y axis
+20      tBodyGyro.std.Z     Gyroscope readings' standard deviation on Z axis
