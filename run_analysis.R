@@ -1,3 +1,5 @@
+library(plyr)
+
 loadData <- function (directory = "UCI HAR Dataset") {
     subjectsTrain <- read.table(paste(directory, "/train/subject_train.txt", sep = ""))
     subjectsTest <- read.table(paste(directory, "/test/subject_test.txt", sep = ""))
@@ -55,6 +57,6 @@ createAverages <- function(data, directory = "UCI HAR Dataset") {
 
 writeAverages <- function(directory = "UCI HAR Dataset", outfile = "data.txt") {
     loadeddata <- loadData(directory)
-    averages <- createAverages(loadeddata)
+    averages <- createAverages(loadeddata, directory)
     write.table(averages, file = outfile, row.names = FALSE)
 }
